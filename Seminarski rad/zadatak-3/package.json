@@ -1,0 +1,13 @@
+{
+  "name": "grupa_21",
+  "version": "1.0.0",
+  "description": "Automatizovano testiranje - TechnoShop",
+  "scripts": {
+    "test": "mocha \"test/**/*.spec.js\" --timeout 30000"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.21.0",
+    "mocha": "^10.4.0",
+    "chai": "^4.4.1"
+  }
+}
